@@ -84,7 +84,6 @@ body{
     height: 180px;
 }
 
-/* Normal card start */
 .first-card{
     background-color: rgba(251, 181, 99, 0.05);
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -110,6 +109,7 @@ body{
 .social-media{
     display: flex;
     margin-left: 600px;
+    gap: 30px;
    
     
 }
@@ -141,7 +141,8 @@ body{
 /* Responsive for small device 600px and down */
 @media screen and (max-width: 600px) {
     body{
-        margin: 1px 1px;  
+        margin: 5px; 
+        padding: 5px; 
         
     }
     .program-section-img-text{
@@ -165,6 +166,17 @@ body{
         flex-direction: column;
     }
     .social-media{
-        margin-left: 80px;
+        margin-left: 170px;
+    }
+    .align-text{
+        text-align: center;
+    }
+    /* .align-text-2{
+        display: flex;
+       padding-left: 90px;
+       gap: 110px;
+    } */
+    .footer-color{
+        width: 95%;
     }
 }
