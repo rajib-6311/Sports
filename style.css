@@ -102,6 +102,24 @@ body{
 
 /* Normal card  end */
 
+/* social Medea start */
+.margin-h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.social-media{
+    display: flex;
+    margin-left: 600px;
+   
+    
+}
+
+.icon-size{
+    width: 40px;
+    height: 40px;
+    
+}
+/* social Medea end */
 
 
 /* Responsive styles */
@@ -131,5 +149,8 @@ body{
     }
     .card-align{
         flex-direction: column;
+    }
+    .social-media{
+        margin-left: 80px;
     }
 }
