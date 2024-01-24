@@ -1,19 +1,59 @@
 body{
     font-family: 'Manrope', sans-serif;
 }
+/* Sheared work */
+.container{
+    margin-bottom: 60px;
+}
+/* p-text-color */
+.p-text-color{
+    color: rgba(19, 19, 24, 0.60);
+}
+.header-text{
+    font-weight: 800;
+}
 
 #logo{
     height: 70px;
 }
-/* navber background color */
-/* .bg-color{
-    background-color: #F0FFF0;  
-} */
-/* all button */
+
+
 .btn{
     background-image: linear-gradient(to bottom, #FF4240 0%, #FF136F 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 8px 10px;
+}
+/* carousel-size */
+.carousel-size img{
+    height: 450px;
+}
+
+/* program-section */
+.program-section{
+    text-align: center;
+}
+/* program-section-img-all */
+.program-section-img{
+    display: flex;
+    height: 550px;
+}
+.program-section-img-text{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/2.png);
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    border-radius: 10px;
+    height: 550px;
+    font-weight: 500;
+}
+.program-section-img-text-2{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/3.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 550px;
+    font-weight: 500;
+}
+.text-color{
+    color: white;
 }
