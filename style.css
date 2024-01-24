@@ -9,6 +9,10 @@ body{
 .p-text-color{
     color: rgba(19, 19, 24, 0.60);
 }
+.text-h5{
+    color: #131318;
+    font-weight: 800;
+}
 .header-text{
     font-weight: 800;
 }
@@ -67,4 +71,47 @@ body{
     border-radius: 10px;
     padding-top: 230px;
     padding-left: 20px;
+}
+/* card-align */
+.card-align{
+    display: flex;  
+}
+.card{
+    margin-right: 20px;
+    padding: 40px 30px 0px 30px;
+}
+.img-card img{
+    height: 180px;
+}
+
+
+
+/* Responsive styles */
+
+/* Responsive for small device 600px and down */
+@media screen and (max-width: 600px) {
+    body{
+        margin: 1px 1px;  
+        
+    }
+    .program-section-img-text{
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+   
+    .program-section-img img{
+        width: 95%;
+        
+    }
+    .program-section-img-text-3{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .program-section-img{
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    .card-align{
+        flex-direction: column;
+    }
 }
