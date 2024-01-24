@@ -119,9 +119,23 @@ body{
     height: 40px;
     
 }
+
 /* social Medea end */
 
-
+/* footer */
+.footer-color{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+.padding-footer{
+    padding-top: 40px;
+    margin-top: 60px;
+}
+.p-text p{
+    color: rgba(255, 255, 255, 0.60);
+}
+/* footer */
 /* Responsive styles */
 
 /* Responsive for small device 600px and down */
