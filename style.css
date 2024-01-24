@@ -36,24 +36,35 @@ body{
 }
 /* program-section-img-all */
 .program-section-img{
-    display: flex;
-    height: 550px;
+   display: flex;
+   height: 400px;
+   margin-bottom: 50px;
 }
 .program-section-img-text{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/2.png);
+    background:url(Images/2.png);
     background-repeat: no-repeat;
     margin-right: 30px;
     border-radius: 10px;
-    height: 550px;
-    font-weight: 500;
+    width: 600px;
+    padding-top: 130px;
+    padding-left: 20px;
 }
 .program-section-img-text-2{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/3.png);
+    background:url(Images/3.png);
     background-repeat: no-repeat;
     border-radius: 10px;
-    height: 550px;
-    font-weight: 500;
+    width: 600px;
+    padding-top: 130px;
+    padding-left: 20px;
+    margin-bottom: 50px;
 }
 .text-color{
     color: white;
+}
+.program-section-img-text-3{
+    background: url(Images/4.png);
+    height: 400px;
+    border-radius: 10px;
+    padding-top: 230px;
+    padding-left: 20px;
 }
