@@ -1,3 +1,19 @@
-h1{
-    color: red;
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+#logo{
+    height: 70px;
+}
+/* navber background color */
+/* .bg-color{
+    background-color: #F0FFF0;  
+} */
+/* all button */
+.btn{
+    background-image: linear-gradient(to bottom, #FF4240 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 10px;
 }
